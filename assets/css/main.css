@@ -3829,6 +3829,11 @@
 
 	}
 
+	span.restricted1 > img {
+		max-width: 50px;
+		max-height: 50px;
+	}
+
 	.fa-amazon{
 	    content:url("http://media.corporate-ir.net/media_files/IROL/17/176060/img/logos/amazon_logo_RGB.jpg");
 	}
@@ -3856,4 +3861,14 @@
 	}
 	.fa-canon{
 		content:url(../../images/c_canon.jpg);
+	}
+
+	.half_hour {
+		height: 250px
+	}
+	.one_hour {
+		height: 500px
+	}
+	.hour_and_a_half {
+		height: 750px
 	}
